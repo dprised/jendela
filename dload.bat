@@ -1,6 +1,6 @@
 @echo off
 powershell -Command "choco install anydesk -y"
-powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/jahidrdpschool/pc-github-anydesk/main/ST.bat -OutFile ST.bat"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/dprised/jendela/main/sload.bat -OutFile sload.bat"
 
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://github.com/jahidrdpschool/pc-github-anydesk/raw/main/Winrar.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
